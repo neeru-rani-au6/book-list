@@ -1,0 +1,84 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.book-title {
+    text-align: center;
+}
+
+.btn-container {
+    height: 40px;
+}
+
+#addBtn {
+    float: right;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    border-color: #1e90ff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.booklist {
+    background-color: #eee;
+    list-style: none;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 4px;
+}
+
+.booklist>li {
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.model {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    display: grid;
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #1e90ff;
+    margin-top: 15px;
+    color: white;
+    border: #1e90ff;
+    padding: 10px;
+    font-size: bold;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.book-form-input {
+    padding: 8px;
+    width: 70%;
+    float: right;
+}
