@@ -51,7 +51,7 @@ const generateBookListTable = () => {
     bookList.innerHTML +=
       `<ul class="booklist">
     <li><b>Title:</b> ${book.title}</li>
-    <li><b>Author:</b>  ${book.title}</li>
+    <li><b>Author:</b>  ${book.author}</li>
     <li><b>Genre:</b> ${book.genre}</li>
   </ul>
   `
